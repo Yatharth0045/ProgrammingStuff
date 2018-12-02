@@ -11,7 +11,6 @@ For inputString = "a", the output should be
 checkPalindrome(inputString) = true.
 
 */
-
 class checkPalindrome{
     public static void main(String[] args){
         String s="ajayaja";
