@@ -17,7 +17,7 @@ class AlternateElementProduct{
     }
 
     static int alternateElements(int[] inputArray) {
-        int i=0,mul1=1,mul2=1;
+        int i=0,mul1=Integer.MIN_VALUE,mul2=Integer.MIN_VALUE;
         while(i<inputArray.length)
         {
             if(i%2==0)
