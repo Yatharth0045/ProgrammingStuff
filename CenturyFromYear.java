@@ -20,6 +20,6 @@ class CenturyFromYear {
 	}
 	public static void main(String[] args) {
 		int year = 2017;
-		centuryFromYear(year);		
+		System.out.println(centuryFromYear(year));		
 	}	
 }
