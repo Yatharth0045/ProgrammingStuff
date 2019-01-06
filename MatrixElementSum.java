@@ -22,7 +22,7 @@ int matrixElementsSum(int[][] matrix) {
         {
             if(matrix[i][j]==0)
             {
-                for(int k=i;k<matrix[0].length-1;k++)
+                for(int k=i;k<matrix.length;k++)
                 {
                     matrix[k][j]=0;
                 }
