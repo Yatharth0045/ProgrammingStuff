@@ -61,11 +61,24 @@ class BalancedRatingChanges {
 		getSolution(arr);
 	}
 	private static void getSolution(int[] arr){
+		int sum = 0;
 		int toggle = 0;
 		for (int i = 0;i<arr.length ;i++ ) {
-			if(arr[i]%2==1){
-				
+			if(Math.abs(arr[i]%2)==1){
+				if (toggle == 0) {
+					toggle=1;
+					sum+=(arr[i]+1)/2;
+					System.out.println((arr[i]+1)/2);
+				} else if (toggle == 1){
+					toggle=0;
+					sum+=(arr[i]-1)/2;
+					System.out.println((arr[i]-1)/2);
+				}
+			}else{
+				sum+=(arr[i]/2);
+				System.out.println(arr[i]/2);
 			}
 		}
+		System.out.println("sum is :"+sum);
 	}
 }
