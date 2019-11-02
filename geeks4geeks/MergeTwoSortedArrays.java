@@ -83,7 +83,6 @@ class MergeTwoSortedArrays {
 				for(int i=pos;i>=0;i--){
 					if(temp>arr1[i]){
 						arr1[i+1]=temp;
-						pos=i+1;
 						break;
 					}else{
 						arr1[i+1]=arr1[i];
@@ -100,7 +99,6 @@ class MergeTwoSortedArrays {
 			for (int i=0;i<arr2.length ;i++ ) {
 				System.out.print(arr2[i]+" ");
 			}
-			System.out.println();
 		}
 	}
 }
