@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 /*
+Question: Balanced Rating Changes 
 
 Another Codeforces Round has just finished! It has gathered n participants, and according to the results, the expected rating change of participant i is ai. These rating changes are perfectly balanced — their sum is equal to 0
 
